@@ -1,0 +1,79 @@
+.comment {
+    background-color: #cc99ff;
+    font-style: italic;
+    padding: 5px;
+	margin: 0px;
+}
+.note1 {
+    background-color: #D6AADB;
+    font-style: italic;
+    padding: 5px;
+	margin: 0px;
+}
+.note2 {
+    background-color: #B7E2E2;
+    font-style: italic;
+    padding: 5px;
+	margin: 0px;
+}
+.tags {
+    background-color: #9370DB;
+    font-weight: bold;
+	font-size:.9em;
+    padding: 5px;
+	margin: 0px;
+}
+.image1 {
+    background-color: #F7DB71;
+    font-weight: bold;
+    padding: 0px;
+	margin: 0px;
+}
+.image2 {
+    background-color: #e6e6e6;
+    font-weight: bold;
+    padding: 0px;
+	margin: 0px;
+}
+.content {
+    background-color: #e6e6e6;
+    padding: 5px;
+	margin: 0px;
+}
+.highlight2 {
+    background-color: #B1DBA2;
+    padding: 5px;
+	margin: 0px;
+}
+.highlight1 {
+    background-color: #F0E68C;
+    padding: 5px;
+	margin: 0px;
+}
+.ref {
+	color: #cccccc;
+    padding: 2px;
+	font-size:.7em;
+	text-align:right;
+	margin: 10px 0px 0px 0px;
+    font-weight: bold;
+}
+#top {
+    font-weight: bold;
+    padding: 5px;
+	color: #cccccc;
+}
+body {
+  background: #333333;
+  color: #333333;
+  font-family:Arial, sans-serif;;
+  font-size:1em;
+  align: center:
+}
+div {
+  max-width: 600px;
+  margin:auto;
+}
+a:link { color: #cccccc;text-decoration: none;  }
+a:visited { color: #cccccc;text-decoration: none;  }
+a:active { color: #cccccc;text-decoration: none; }
