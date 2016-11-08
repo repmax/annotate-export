@@ -1,7 +1,6 @@
-PDF Annotation Extractor
-PDF-Zotfile-Html
+# PDF Annotation Extractor
 
-# Intro
+## Intro
 Collecting bits of information, re-organising and merging them is an fundamental part of a knowledge worker.
 
 Tools and procedures are in this context as important as it is for industrial work. Only the nature of the medium has changed. Surprisingly, there is no such tools and procedures are little developed for knowledge workers. You can markup pdfs in various pdf readers, but your notes remain locked inside the file. Zotero and Zotfile can extract markup, but it remains within the Zotero environment in which extract markup and other notes are not easily manipulated.
@@ -29,17 +28,17 @@ In Firefox I open the folder with the created html files in the sidebar, so I ca
 
 There are also a file that includes all possible elements and another that takes all elements that was not tagged. Hopefully it will in this way meet most requirements of everyday use despite it being static in nature. In its present form it is therefore also necessary to remake all files if there are any changes or new additions. Though it is only a matter of running the script it is not optimal.
 
-# Setup
-If you want to have a go with the script with your Zotero/Zotfile you need to change the about:config 
+## Setup
+If you want to have a go with the script with your Zotero/Zotfile you need to change the `about:config` in Firefox: 
 
-extensions.zotfile.pdfExtraction.formatAnnotationHighlight:
->  <div class="highlight" style="background-color:%(color)"><p class="text">%(content)</p><p class="source" style="text-align:right;">%(cite)</p></div>
-extensions.zotfile.pdfExtraction.formatAnnotationNote:
-> <div class="note" style="background-color:%(color)"><p class="text">%(content)</p><p class="source" style="text-align:right;">%(cite)</p></div>
-extensions.zotfile.pdfExtraction.formatAnnotationUnderline:
-> <div class="underline" ><p class="text"><u>%(content)</u></p><p class="source" style="text-align:right;">%(cite)</p></div>
-extensions.zotfile.pdfExtraction.formatNoteTitle:
-> <div class="head"><p class="title">%(title): %(date)</p><p class="date" style="display:none;">%(date)</p></div>
+extensions.zotfile.pdfExtraction.formatAnnotationHighlight:  
+```<div class="highlight" style="background-color:%(color)"><p class="text">%(content)</p><p class="source" style="text-align:right;">%(cite)</p></div>```  
+extensions.zotfile.pdfExtraction.formatAnnotationNote:  
+```<div class="note" style="background-color:%(color)"><p class="text">%(content)</p><p class="source" style="text-align:right;">%(cite)</p></div>```  
+extensions.zotfile.pdfExtraction.formatAnnotationUnderline:  
+```<div class="underline" ><p class="text"><u>%(content)</u></p><p class="source" style="text-align:right;">%(cite)</p></div>```  
+extensions.zotfile.pdfExtraction.formatNoteTitle:  
+```<div class="head"><p class="title">%(title): %(date)</p><p class="date" style="display:none;">%(date)</p></div>```  
 
 You should also markup with a particular color code:
 - Highlight 1: '255,255,0','ffff00'
